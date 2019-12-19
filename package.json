@@ -23,5 +23,11 @@
   "engines": {
     "atom": ">=0.174.0 <2.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "text-buffer": "^13.17.2",
+    "underscore": "^1.9.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.2"
+  }
 }
