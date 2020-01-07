@@ -1,6 +1,6 @@
 {
   "name": "markdown-toc",
-  "bin": "./lib/script.mjs",
+  "bin": "./lib/script.js",
   "version": "0.4.2",
   "description": "Generate TOC (table of contents) of headlines from parsed markdown file",
   "activationCommands": {
@@ -24,6 +24,7 @@
     "atom": ">=0.174.0 <2.0.0"
   },
   "dependencies": {
+    "esm": "^3.2.25",
     "text-buffer": "^13.17.2",
     "underscore": "^1.9.1"
   },
